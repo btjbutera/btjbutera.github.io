@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.jumbotron {
+    position: relative;
+    height: 1000px;
+    background-image: url("./godzilla.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.slogan {
+    position: fixed;
+    text-align: center;
+    color: white;
+    border: 12px solid darkred;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 70px;
+    color: darkred;
+    padding: 30px 30px;
+    font-weight: 800;
+}
+
+nav {
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+}
+
+.menu a:hover {
+    color: darkred;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 5px 80px;
+    color: white;
+    font-size: 26px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu p {
+    color: white;
+}
+
+footer {
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    padding-top: 10px;
+}
+
+footer p {
+    color: white;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+}
